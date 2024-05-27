@@ -1,0 +1,141 @@
+@font-face {
+  font-family: headersFont;
+  src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+  font-family: paragraphsFont;
+  src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+html {
+  font-family: paragraphsFont;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: whitesmoke;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/close-up-fresh-freshness-garden-7ccccc72fd9ca313ed27c332fc51855c.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 30px auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+header h1 {
+  font-family: headersFont, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 100px;
+  padding-left: 50px;
+}
+
+header section {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+header h2 {
+  font-family: headersFont, Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+header aside {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  line-height: 1.7rem;
+}
+
+header section a {
+  font-size: 1.5rem;
+  color: white;
+  border: 1px solid whitesmoke;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header section a:hover,
+footer a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+header nav li {
+  font-size: 1.2rem;
+  margin: 0 50px 10px auto;
+  text-align: right;
+}
+
+header nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header nav a:hover {
+  color: rgb(122, 122, 122);
+}
+
+main {
+  text-align: center;
+  font-size: 1.2rem;
+  max-height: 35%;
+}
+
+main h2 {
+  font-family: headersFont, Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+main p {
+  width: 50%;
+  margin: 0 auto 30px auto;
+  letter-spacing: 2px;
+}
+
+main a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 10px 30px;
+  border: 4px solid black;
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+
+main a:hover {
+  color: #767676;
+}
+
+footer {
+  width: 100%;
+  color: whitesmoke;
+  background-color: #3b3940;
+  height: 70%;
+  padding: 20px 0 20px 20px;
+}
+
+footer p {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  padding: 5px 20px;
+}
+
+

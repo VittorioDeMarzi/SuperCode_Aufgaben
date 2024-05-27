@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+div {
+  height: 150px;
+  width: 150px;
+  background-color: #9bc1bc;
+  border: 15px solid #f4f1bb;
+  outline: 5px solid #546a7b;
+  box-shadow: 0px 0px 0px 20px #ed6a5a;
+  margin: 50px;
+}
+
+li:nth-last-of-type(4)::marker {
+  content: "\25b6";
+  color: #9bc1bc;
+}
+li:nth-last-of-type(3)::marker {
+  content: "\25b6";
+  color: #f4f1bb;
+}
+li:nth-last-of-type(2)::marker {
+  content: "\25b6";
+  color: #546a7b;
+}
+li:nth-last-of-type(1)::marker {
+  content: "\25b6";
+  color: #ed6a5a;
+}
+
+li {
+  margin-left: 50px;
+}

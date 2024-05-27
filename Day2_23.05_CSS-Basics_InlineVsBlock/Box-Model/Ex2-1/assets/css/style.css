@@ -1,0 +1,63 @@
+h1 {
+  border: 2px dashed black;
+  font-size: 25px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+h2 {
+  border: 0px solid black;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  padding: 10px 0px;
+  box-shadow: 0 0 20px 2px black;
+}
+
+h3 {
+  border: 10px double rgb(28, 172, 31);
+  font-size: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+body p {
+  width: 500px;
+  border: 2px solid rgb(210, 162, 30);
+  margin: 20px auto;
+  padding: 10px;
+  color: blueviolet;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+p:hover::first-letter {
+  font-size: 3em;
+  color: red;
+}
+
+ol {
+  width: 350px;
+  border: 2px dotted green;
+  text-decoration: underline rgb(255, 0, 0);
+  margin: 20px auto;
+  padding: 20px 30px;
+}
+
+ul {
+  width: 350px;
+  border: 2px dotted green;
+  text-decoration: underline rgb(255, 0, 0);
+  margin: 20px auto;
+  padding: 20px 30px;
+}
