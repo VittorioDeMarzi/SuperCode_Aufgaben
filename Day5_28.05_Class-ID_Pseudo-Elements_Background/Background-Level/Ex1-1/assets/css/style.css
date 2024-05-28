@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  background-color: linen;
+  margin-bottom: 40px;
+}
+
+section h1 {
+  background-color: lightblue;
+}
+
+article {
+    background-image: url("../img/uriel-xtgONQzGgOE-unsplash.jpg");
+}
