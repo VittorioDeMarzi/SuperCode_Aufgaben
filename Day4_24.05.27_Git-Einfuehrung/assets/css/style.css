@@ -74,7 +74,7 @@ main img:hover {
   transform: scale(1.1);
 }
 
-main section {
+main section:nth-of-type(1) {
   width: 470px;
   height: 122.91px;
   margin: 0 auto 40px auto;
@@ -91,6 +91,8 @@ main h2 {
 main p {
   font-family: latoLight, Arial, Helvetica, sans-serif;
   font-size: 16px;
+  display: inline-block;
+  padding-bottom: 20px;
 }
 
 main a {
@@ -105,13 +107,12 @@ main a:hover {
 }
 
 main input {
-    margin-right: 0 auto;
   background: rgba(252, 245, 176, 1);
   border: 0px;
   padding-bottom: 40px;
   font-size: 20px;
   display: inline;
-  margin-left: 0;
+  width: 60%;
 }
 
 main input:focus {
@@ -119,12 +120,9 @@ main input:focus {
 }
 
 main section:nth-of-type(2) {
-
-  width: 100%;
-  margin: 0 auto 40px auto;
-  font-family: courierPrime;
+  width: 70%;
+  /* font-family: courierPrime; */
   background: rgba(252, 245, 176, 1);
-  width: 50%;
   height: 150px;
   margin: 0 auto;
   border-radius: 15px;
@@ -139,15 +137,6 @@ main section:nth-of-type(2) p::first-letter {
   font-size: 34px;
   padding: 10px 5px 10px 5px;
   font-family: latoBold, Arial, Helvetica, sans-serif;
-}
-
-main p {
-  display: inline-block;
-  padding-bottom: 20px;
-}
-
-main section:nth-of-type(2) p {
-    padding-left: 20px;
 }
 
 main div {
