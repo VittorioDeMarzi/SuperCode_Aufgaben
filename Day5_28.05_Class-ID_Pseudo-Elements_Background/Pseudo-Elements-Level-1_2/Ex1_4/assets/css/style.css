@@ -1,0 +1,19 @@
+p::before {
+    content: "Info ";
+    font-weight: bold;
+    background-color: #FFCC00;
+}
+
+p::after {
+    color: #FFCC00;
+    content: " \2665";
+}
+
+p {
+    border: 2px solid #FFCC00;
+}
+
+::selection {
+    text-decoration: underline #FFCC00;
+    color: blueviolet;
+}
