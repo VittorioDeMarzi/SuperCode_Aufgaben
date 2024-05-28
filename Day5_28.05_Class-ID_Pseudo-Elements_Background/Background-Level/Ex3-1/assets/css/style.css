@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  background-image: url("../img/spencer-davis-ckotRXopwRM-unsplash\ .jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
