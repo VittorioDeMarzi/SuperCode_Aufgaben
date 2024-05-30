@@ -1,3 +1,5 @@
+/* Basic Style */
+
 @font-face {
   font-family: mavenPro;
   src: url("../fonts/MavenPro-VariableFont_wght.ttf");
@@ -18,6 +20,12 @@ html {
   font-size: 62.5%;
   font-family: "Times New Roman", Times, serif;
 }
+
+img {
+  max-width: 100%;
+}
+
+/* header */
 
 header {
   background-color: rgb(50, 50, 50);
@@ -99,17 +107,27 @@ header nav a:hover {
   color: rgb(99, 99, 99);
 }
 
+/* main */
+
 main {
-  width: 100%;
-  height: 400vh;
+  /* width: 100%; */
+}
+
+.project-section {
   padding-left: 50px;
+  width: 70%;
+}
+
+main article {
+  margin-bottom: 80px;
 }
 
 main h2 {
   font-family: mavenPro, Arial, Helvetica, sans-serif;
   color: rgba(38, 40, 52, 0.03);
-  font-size: 15rem;
-  margin-bottom: -60px;
+  font-size: clamp(10rem, -4.4366rem + 21.5962vw, 15rem);
+  margin-bottom: -5vh;
+  width: 100%;
 }
 
 main h3 {
@@ -122,18 +140,20 @@ main h3 {
 
 .believe {
   font-family: mavenPro, Arial, Helvetica, sans-serif;
-  width: 690px;
+  width: 100%;
   font-size: 1.6rem;
   line-height: 1.8rem;
   margin-bottom: 100px;
 }
 
 .img {
-  width: 690px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .imgs {
+  width: 50%;
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -141,6 +161,17 @@ main h3 {
   width: 690px;
   text-align: left;
   font-family: "Times New Roman", Times, serif;
-  margin-left: auto;
   margin-right: auto;
+}
+
+.imgs h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.imgs p {
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
