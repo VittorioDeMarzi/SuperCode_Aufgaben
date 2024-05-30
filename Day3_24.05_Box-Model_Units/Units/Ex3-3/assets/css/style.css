@@ -125,7 +125,7 @@ main article {
 main h2 {
   font-family: mavenPro, Arial, Helvetica, sans-serif;
   color: rgba(38, 40, 52, 0.03);
-  font-size: clamp(10rem, -4.4366rem + 21.5962vw, 15rem);
+  font-size: clamp(8rem, -4.4366rem + 21.5962vw, 15rem);
   margin-bottom: -5vh;
   width: 100%;
 }
@@ -133,15 +133,15 @@ main h2 {
 main h3 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 700;
-  font-size: 5.6rem;
+  font-size: clamp(3rem, 2.0845rem + 3.9061vw, 5.6rem);
   letter-spacing: 2px;
   margin-bottom: 40px;
 }
 
 .believe {
   font-family: mavenPro, Arial, Helvetica, sans-serif;
-  width: 100%;
-  font-size: 1.6rem;
+  width: 70%;
+  font-size: clamp(1.4rem, 0.831rem + 0.1878vw, 1.6rem);
   line-height: 1.8rem;
   margin-bottom: 100px;
 }
