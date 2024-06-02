@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: whitesmoke;
+}
+
+fieldset {
+  background-color: rgb(23, 32, 37);
+  color: whitesmoke;
+  width: 35%;
+  max-width: 500px;
+  border: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.315);
+  margin: 50px auto 0 auto;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.switch {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.switch a {
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(23, 32, 37);
+  padding-top: 15px;
+  width: 49%;
+  height: 50px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+fieldset .active {
+  background-color: rgb(50, 170, 102);
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+div input {
+  display: flexbox;
+  width: 49%;
+}
+
+input {
+  background-color: rgb(23, 32, 37);
+  color: whitesmoke;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+input:focus-visible {
+    outline-color: rgb(50, 170, 102);
+    border: none;
+  }
+
+form {
+  margin-bottom: 20px;
+}
+
+.submit {
+  color: whitesmoke;
+  background-color: rgb(50, 170, 102);
+}
