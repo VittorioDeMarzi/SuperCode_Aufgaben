@@ -41,7 +41,7 @@ p {
 nav {
   display: flex;
   padding: 20px 0;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
@@ -49,6 +49,10 @@ nav {
 
 nav a {
   color: rgba(102, 102, 102, 1);
+}
+
+nav ul a:hover {
+  color: rgb(131, 160, 190);
 }
 
 .logo {
@@ -59,8 +63,6 @@ nav a {
 ul {
   list-style: none;
   display: flex;
-  width: 40%;
-  justify-content: flex-start;
   align-items: center;
   font-size: 13px;
   font-weight: 500;
@@ -115,10 +117,21 @@ header section {
   font-size: 12px;
 }
 
+.read-more:hover {
+  background-color:rgb(17, 40, 61);
+  ;
+  color: rgba(116, 92, 249, 1);
+}
+
 #download {
   border: 2px solid rgba(255, 255, 255, 1);
   padding: 15px;
   font-size: 12px;
+}
+
+#download:hover {
+background-color: white;
+color: black;
 }
 
 /* Explain secion */
@@ -128,16 +141,16 @@ header section {
   justify-content: space-evenly;
   align-items: normal;
   /* align-items: stretch; */
-  padding: 0 20px 0 20px;
+  padding: 0 150px 0 150px;
   margin-bottom: 100px;
 }
 
 .explain img {
-  width: 35%;
+  width: 50%;
 }
 
 .article {
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -146,6 +159,7 @@ header section {
 
 .article p {
   text-align: left;
+  width: 100%;
 }
 
 .explain2 {
@@ -169,7 +183,7 @@ header section {
 }
 
 .options {
-  height: 1000px;
+  /* height: 1000px; */
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -179,19 +193,13 @@ header section {
   gap: 20px;
 }
 
-/* .options p {
-  width: 70%;
-  text-align: center;
-}
-
-#sunsetImg {
-  text-align: center;
-} */
 
 .options img {
   width: 80%;
   margin-top: 30px;
 }
+
+/* Our Projects */
 
 .our-projects {
   color: rgba(255, 255, 255, 1);
@@ -203,8 +211,43 @@ header section {
   align-items: center;
 }
 
+.our-projects div {
+  display: flex;
+}
+
 .our-projects img {
-  width: 24.5%;
+  width: 24.5vw;
   margin: 0;
 }
 
+/* !Footer */
+
+.main-clients {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-clients div {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.do-you-like {
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.theme-by p {
+  background-color: black;
+  color: rgba(254, 254, 254, 1);
+  width: 100%;
+  text-align: left;
+  padding: 90px 0 80px 180px;
+}
