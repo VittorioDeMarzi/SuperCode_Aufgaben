@@ -7,39 +7,38 @@
 
 li {
   list-style: none;
-
 }
 
 a {
-    text-decoration: none;
-    color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .wrapper {
-    width: 100%;
-    background-image: url("../img/img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("../img/img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
-    display: flex;
-    color: rgb(209, 233, 254);
-    justify-content: space-between;
-    padding: 10px 30px 10px 20px;
-    background-color: rgba(0, 0, 0, 0.381);
+  display: flex;
+  color: rgb(209, 233, 254);
+  justify-content: space-between;
+  padding: 10px 30px 10px 20px;
+  background-color: rgba(0, 0, 0, 0.381);
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 nav li {
-    padding: 5px 15px;
+  padding: 5px 15px;
 }

@@ -1,0 +1,210 @@
+/* Basic */
+
+@font-face {
+  font-family: raleway;
+  src: url("../font/Raleway-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: raleway, Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(140, 151, 158, 1);
+  width: 70%;
+  text-align: center;
+}
+
+/* ! Header */
+/* navbar */
+
+nav {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+
+nav a {
+  color: rgba(102, 102, 102, 1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  gap: 20px;
+}
+
+header {
+  height: 100%;
+  margin-bottom: 120px;
+}
+
+header section {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/we-change.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.untertitle {
+  text-align: center;
+  width: 70%;
+  font-size: 14px;
+  padding: 20px 0 35px 0;
+  color: rgba(255, 255, 255, 1);
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.read-more {
+  background-color: rgba(116, 92, 249, 1);
+  border: 2px solid rgba(116, 92, 249, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 15px 20px;
+  font-size: 12px;
+}
+
+#download {
+  border: 2px solid rgba(255, 255, 255, 1);
+  padding: 15px;
+  font-size: 12px;
+}
+
+/* Explain secion */
+
+.explain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: normal;
+  /* align-items: stretch; */
+  padding: 0 20px 0 20px;
+  margin-bottom: 100px;
+}
+
+.explain img {
+  width: 35%;
+}
+
+.article {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.article p {
+  text-align: left;
+}
+
+.explain2 {
+  flex-direction: row-reverse;
+}
+
+/* parallax section */
+
+.parallax {
+  height: 440px;
+  background-image: url("../img/wave.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 100px;
+}
+
+.options {
+  height: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(14, 16, 21, 1);
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+/* .options p {
+  width: 70%;
+  text-align: center;
+}
+
+#sunsetImg {
+  text-align: center;
+} */
+
+.options img {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.our-projects {
+  color: rgba(255, 255, 255, 1);
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-projects img {
+  width: 24.5%;
+  margin: 0;
+}
+
