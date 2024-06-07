@@ -1,0 +1,33 @@
+@font-face {
+  font-family: poppins;
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url("../img/ana-rita-martins-CIIGoGjdzI8-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+header p {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
