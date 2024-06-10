@@ -18,11 +18,12 @@
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 html {
   font-family: regular, Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color: rgba(51, 51, 51, 1);
   background-color: rgba(233, 233, 224, 1);
 }
@@ -59,12 +60,14 @@ header section {
 
 body {
   display: grid;
-  grid-template-columns: 3.3fr 1fr;
-  grid-template-rows: 150px 700px;
+  grid-template-columns: 4.5fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
     "header header"
     "main aside";
-    gap: 20px;
+  gap: 20px;
+  padding:0 50px;
+  margin-bottom: 50px;
 }
 
 header {
@@ -76,46 +79,102 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: auto;
-  grid-template-areas: 
-  "title title title"
-  "article1 article2 image"
-  "article3 article4 image"
-  "article5 article6 image";
+  grid-template-areas:
+    "title title title"
+    "article1 article2 image"
+    "article3 article4 image"
+    "article5 article6 image";
   gap: 20px;
 }
 
 main h2 {
-    grid-area: title;
-    font-size: 35px;
+  font-family: bold;
+  grid-area: title;
+  font-size: 35px;
+  text-align: center;
 }
 
 .article2 {
-    grid-area: article2;
+  grid-area: article2;
 }
 
 .article3 {
-    grid-area: article3;
+  grid-area: article3;
 }
 
 .article4 {
-    grid-area: article4;
+  grid-area: article4;
 }
 
 .article5 {
-    grid-area: article5;
+  grid-area: article5;
 }
 
 .article6 {
-    grid-area: article6;
+  grid-area: article6;
 }
 
 figure {
-    grid-area: image;
+  grid-area: image;
 }
 
+main article h3 {
+  font-family: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
+main article p {
+    line-height: 20px;
+}
 
 aside {
-  background-color: red;
   grid-area: aside;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-areas:
+    "visit"
+    "your_add"
+    "knives"
+    "ikea";
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+aside h4 {
+  grid-area: visit;
+}
+
+aside h5 {
+    grid-area: your_add;
+    font-size: 50px;
+    text-align: center;
+    font-family: bold;
+}
+
+aside h3 {
+    font-family: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+aside article {
+    grid-area: knives;
+    text-align: center;
+}
+
+aside a {
+    color: rgba(115, 123, 128, 1);
+    text-decoration: underline;
+}
+
+aside img {
+    grid-area: ikea;
+}
+
+.border {
+    border: 4px double black;
+    padding: 20px;
 }
