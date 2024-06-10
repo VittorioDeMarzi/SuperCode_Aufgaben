@@ -66,7 +66,7 @@ body {
     "header header"
     "main aside";
   gap: 20px;
-  padding:0 50px;
+  padding: 0 50px;
   margin-bottom: 50px;
 }
 
@@ -125,7 +125,7 @@ main article h3 {
 }
 
 main article p {
-    line-height: 20px;
+  line-height: 20px;
 }
 
 aside {
@@ -138,9 +138,9 @@ aside {
     "your_add"
     "knives"
     "ikea";
-    justify-items: center;
-    align-items: center;
-    gap: 20px;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
 }
 
 aside h4 {
@@ -148,33 +148,99 @@ aside h4 {
 }
 
 aside h5 {
-    grid-area: your_add;
-    font-size: 50px;
-    text-align: center;
-    font-family: bold;
+  grid-area: your_add;
+  font-size: 50px;
+  text-align: center;
+  font-family: bold;
 }
 
 aside h3 {
-    font-family: bold;
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-family: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 aside article {
-    grid-area: knives;
-    text-align: center;
+  grid-area: knives;
+  text-align: center;
 }
 
 aside a {
-    color: rgba(115, 123, 128, 1);
-    text-decoration: underline;
+  color: rgba(115, 123, 128, 1);
+  text-decoration: underline;
 }
 
 aside img {
-    grid-area: ikea;
+  grid-area: ikea;
 }
 
 .border {
-    border: 4px double black;
-    padding: 20px;
+  border: 4px double black;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title title"
+      "article1 article2"
+      "article3 article4"
+      "article5 article6"
+      "image image";
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    header section {
+        font-size: 14px;
+        justify-content: space-between;
+    }
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header"
+      "main"
+      "aside";
+    gap: 20px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title"
+      "article1"
+      "article2"
+      "article3"
+      "article4"
+      "article5"
+      "article6"
+      "image";
+  }
+
+  main h2 {
+    font-size: 30px;
+  }
+
+  aside h5 {
+    /* width: 50vw; */
+    font-size: 36px;
+    width: 70vw;
+  }
+
+  aside article,
+  aside img {
+    width: 70vw;
+  }
 }
