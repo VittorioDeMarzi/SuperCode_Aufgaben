@@ -1,0 +1,121 @@
+@font-face {
+  font-family: bold;
+  src: url(../font/CormorantGaramond-Bold.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../font/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+  font-family: italic;
+  src: url(../font/CormorantGaramond-Italic.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+  font-family: regular, Arial, Helvetica, sans-serif;
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(233, 233, 224, 1);
+}
+
+figcaption {
+  font-family: italic, Arial, Helvetica, sans-serif;
+}
+
+/* ! header */
+
+h1 {
+  /* font-family: bold; */
+  font-size: 32px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  font-size: 54px;
+}
+
+header div {
+  background-color: rgba(51, 51, 51, 1);
+  height: 5px;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 3.3fr 1fr;
+  grid-template-rows: 150px 700px;
+  grid-template-areas:
+    "header header"
+    "main aside";
+    gap: 20px;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "title title title"
+  "article1 article2 image"
+  "article3 article4 image"
+  "article5 article6 image";
+  gap: 20px;
+}
+
+main h2 {
+    grid-area: title;
+    font-size: 35px;
+}
+
+.article2 {
+    grid-area: article2;
+}
+
+.article3 {
+    grid-area: article3;
+}
+
+.article4 {
+    grid-area: article4;
+}
+
+.article5 {
+    grid-area: article5;
+}
+
+.article6 {
+    grid-area: article6;
+}
+
+figure {
+    grid-area: image;
+}
+
+
+
+aside {
+  background-color: red;
+  grid-area: aside;
+}
