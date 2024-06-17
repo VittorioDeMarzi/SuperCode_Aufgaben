@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  transform: rotate(45deg);
+  }
+  
+  #btn1 {
+    background: linear-gradient(to right, green 50%, rgb(174, 0, 255) 50%);
+
+}
+  #btn2 {
+    background: linear-gradient(to right, rgb(0, 64, 255) 50%, rgb(234, 255, 0) 50%);
+
+}
+  #btn3 {
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(255, 217, 0) 50%);
+
+    
+}
+  #btn4 {
+    background: linear-gradient(to right, rgb(0, 217, 255) 50%, rgb(17, 0, 255) 50%);
+
+    
+}
