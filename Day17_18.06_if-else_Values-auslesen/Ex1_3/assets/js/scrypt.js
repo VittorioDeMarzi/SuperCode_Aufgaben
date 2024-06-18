@@ -1,8 +1,3 @@
-const publicKey =
-  "-----BEGIN PUBLIC KEY-----\n" +
-  "MIGfMA0GCSqG......" +
-  "-----END PUBLIC KEY-----";
-
 document.querySelector("h1").style.color = "blue";
 
 const separator = document.querySelector("div");
@@ -12,7 +7,6 @@ separator.style.backgroundColor = "gray";
 separator.style.marginBottom = "20px";
 
 function checkAlter() {
-  // console.log("44555");
 
   const alter = Number(document.querySelector("#alter").value);
   console.log(alter);
