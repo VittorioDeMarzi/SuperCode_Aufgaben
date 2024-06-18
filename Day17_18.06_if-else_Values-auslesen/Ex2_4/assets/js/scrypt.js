@@ -10,9 +10,10 @@ function getSum() {
 
 function calculateSum(a, b) {
   if (a === b) {
-      console.log("Summe 5");
+    console.log("Gleiche Zahlen");
+    console.log("Summe: " + sum);
   } else {
-      let sum = a + b;
-      console.log("Summe: " + sum);
+    let sum = a + b;
+    console.log("Summe: " + sum);
   }
 }
